@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blueviolet;
+    width: 50%;
+}
+
+form input{
+    margin-top: 20px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    border: black 2px dotted;
+    height: 90vh;
+    align-items: center;
+}
