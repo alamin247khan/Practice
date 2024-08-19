@@ -1,0 +1,19 @@
+body{
+    background: repeating-linear-gradient(-45deg, yellow, yellow 10%, black 10%, black 20% );
+}
+
+.boxs{
+    display: flex;
+    flex-direction: column;
+    
+    column-gap: 20px;
+    
+}
+
+.box{
+    height: 30px;
+    width: 30px;
+    padding: 20px;
+    background-color: blueviolet;
+}
+
